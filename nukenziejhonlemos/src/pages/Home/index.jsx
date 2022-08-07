@@ -1,6 +1,6 @@
 import "./styles.css";
 import Button from "../../components/Button";
-import {FaCreditCard} from "react-icons/fa"
+import { FaCreditCard } from "react-icons/fa";
 
 function Home({ setIsLogged }) {
   return (
@@ -29,23 +29,39 @@ function Home({ setIsLogged }) {
                   <div className="divRetangulos">
                     <div className="popUp">
                       <div className="bola">
-                        <div className="bolaAmarela">
-                          C
-                        </div>
+                        <div className="bolaAmarela">C</div>
                       </div>
                     </div>
                     <div className="retanguloDeCima">
-                      <div style={{color:"white", display: "flex", flexDirection: "column"}} className="boxRetanguloDeCima"><FaCreditCard /></div>
+                      <div
+                        style={{
+                          color: "white",
+                          display: "flex",
+                          flexDirection: "column",
+                        }}
+                        className="boxRetanguloDeCima"
+                      >
+                        <FaCreditCard />
+                      </div>
                       <div className="box2RetanguloDeCima">
-                      <div className="linha1RetanguloDeCima"></div>
-                      <div className="linha2RetanguloDeCima"></div>
+                        <div className="linha1RetanguloDeCima"></div>
+                        <div className="linha2RetanguloDeCima"></div>
                       </div>
                     </div>
                     <div className="retanguloDeBaixo">
-                      <div style={{color:"white", display: "flex", flexDirection: "column"}} className="boxRetanguloDeBaixo"><FaCreditCard /></div>
+                      <div
+                        style={{
+                          color: "white",
+                          display: "flex",
+                          flexDirection: "column",
+                        }}
+                        className="boxRetanguloDeBaixo"
+                      >
+                        <FaCreditCard />
+                      </div>
                       <div className="box2RetanguloDeBaixo">
-                      <div className="linha1RetanguloDeBaixo"></div>
-                      <div className="linha2RetanguloDeBaixo"></div>
+                        <div className="linha1RetanguloDeBaixo"></div>
+                        <div className="linha2RetanguloDeBaixo"></div>
                       </div>
                     </div>
 

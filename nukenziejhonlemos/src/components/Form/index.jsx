@@ -58,7 +58,7 @@ function Form({
         </div>
         <button
           className="buttonBoxLeft"
-          style={{cursor: "pointer"}}
+          style={{ cursor: "pointer" }}
           disabled={!type || !description || !value ? true : false}
           onClick={() =>
             addForm({

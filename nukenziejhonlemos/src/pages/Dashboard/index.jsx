@@ -5,8 +5,7 @@ import Filters from "../../components/Filters";
 import { useState } from "react";
 import "./styles.css";
 
-
-function Dashboard({setIsLogged}) {
+function Dashboard({ setIsLogged }) {
   const [listTransactions, setListTransactions] = useState([]);
 
   const [filterTransactions, setFilterTransactions] =
@@ -18,12 +17,12 @@ function Dashboard({setIsLogged}) {
     },
     getEntradas: () => {
       setFilterTransactions(
-        listTransactions.filter((item) => item.type === "entrada")
+        listTransactions.filter((item) => item.type === "entrada"),
       );
     },
     getSaidas: () => {
       setFilterTransactions(
-        listTransactions.filter((item) => item.type === "saída")
+        listTransactions.filter((item) => item.type === "saída"),
       );
     },
   };
@@ -45,7 +44,13 @@ function Dashboard({setIsLogged}) {
         <h1 className="h1">
           Nu<span className="span">Kenzie</span>
         </h1>
-        <button style={{cursor: "pointer"}} onClick={() => setIsLogged(false)} className="headerButton">Início</button>
+        <button
+          style={{ cursor: "pointer" }}
+          onClick={() => setIsLogged(false)}
+          className="headerButton"
+        >
+          Início
+        </button>
       </header>
       <main className="mainDash">
         <div className="divBoxLeft">
@@ -78,7 +83,6 @@ function Dashboard({setIsLogged}) {
               {listaVazia}
               {listaVazia}
               {listaVazia}
-    
             </div>
           )}
         </div>

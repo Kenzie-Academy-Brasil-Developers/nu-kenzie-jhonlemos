@@ -19,10 +19,11 @@ function TotalMoney({ listTransactions }) {
         <div className="boxValorTotal">
           <div className="divValorTotal">
             <h3 className="h3ValorTotal">Valor Total</h3>
-            <div id="total"><b>{toReal(total)}</b></div>
-       
+            <div id="total">
+              <b>{toReal(total)}</b>
+            </div>
           </div>
-          <h4 className="h4ValorTotal">O valor se refer ao saldo </h4>
+          <h4 className="h4ValorTotal">O valor se refere ao saldo </h4>
         </div>
       ) : null}
     </>

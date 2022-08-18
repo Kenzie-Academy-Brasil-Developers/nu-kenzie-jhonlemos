@@ -9,4 +9,4 @@ Technologies used:
 - JavaScript
 - React
 
-App link:
+App link: https://nu-kenzie-jhonlemos.vercel.app
